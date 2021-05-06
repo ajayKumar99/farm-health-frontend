@@ -1,0 +1,26 @@
+.logo {
+  height: 80px;
+}
+
+.title__name {
+  margin-bottom: 0;
+  padding: 0 0.5em;
+  color: white;
+}
+
+.nav__link__text {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-item {
+  padding: 0 1em;
+}
+
+.navbar-default {
+  transition: 500ms ease;
+  background: transparent;
+}
+.navbar-default.scrolled {
+  background: #46866c;
+}

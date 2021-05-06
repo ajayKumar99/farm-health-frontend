@@ -1,0 +1,103 @@
+/* .analyze__bg {
+  background-color: #f4d03f;
+  background-image: linear-gradient(315deg, #f4d03f 0%, #16a085 100%);
+} */
+
+.pages-hero {
+  background-image: url(../../assets/analyze-header.jpg);
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.pages-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #000, #000);
+  opacity: 0.5;
+}
+
+.analyze__header {
+  position: relative;
+  top: 300px;
+}
+
+.analyze__header h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 50px;
+  margin: 10px 0px 5px;
+}
+
+.analyze__header p {
+  width: 50%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.analyze__header p span {
+  color: #ffff00;
+}
+
+.analyze__header h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 5px;
+  color: #ffff00;
+  margin-bottom: 0px;
+}
+
+.analyze__card {
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  padding: 2em;
+  margin: 1em;
+  border-radius: 1em;
+  background-color: #ffcc00;
+  border: #46866c 4px solid;
+  transition: 500ms ease;
+  cursor: pointer;
+}
+
+.analyze__card:hover {
+  background-color: #46866c;
+}
+
+.analyze__card .card {
+  background-color: transparent;
+}
+
+.vector__bg {
+  fill: #46866c;
+  transition: 500ms ease;
+}
+
+.analyze__card:hover .card .card-body .vector__bg {
+  fill: white;
+}
+
+.analyze__card:hover h5 {
+    color: white;
+}
+
+.card-body h5 {
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #46866c;
+  font-weight: 600;
+  margin-bottom: 0px;
+  transition: 500ms ease;
+}
+
+.card-body p {
+    font-weight: bold;
+    color: #ffcc00;
+}

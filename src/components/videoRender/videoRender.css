@@ -1,0 +1,23 @@
+.disease__desc h2 {
+  color: #46866c;
+}
+
+#label {
+  color: #d13d1e;
+}
+
+.disease__name {
+    width: 20%;
+    margin-right: 1em;
+}
+
+.disease__analytics > div {
+    padding: 2em 1em;
+}
+
+.disease__desc {
+    padding: 1em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
