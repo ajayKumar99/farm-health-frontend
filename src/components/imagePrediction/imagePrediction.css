@@ -17,3 +17,7 @@
   background-image: linear-gradient(to bottom right, #000, #000);
   opacity: 0.5;
 }
+
+.disease__analytics > div {
+  padding: 1em !important;
+}
